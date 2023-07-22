@@ -72,11 +72,64 @@
 // notif();
 
 // default parameter
-function sayHi($nama,$greeting = "Good Morning"){
-    echo "Hello $nama $greeting\n";
-}
-sayHi("Faqih","Selamat pagi");
+// function sayHi($nama,$greeting = "Good Morning"){
+//     echo "Hello $nama $greeting\n";
+// }
+// sayHi("Faqih","Selamat pagi");
 
+//type declaration
+// function harusangka(int $angka){
+//     echo $angka . "\n";
+// }
+
+// harusangka(2);
+
+// function sum(int $a, int $b){
+//     $t= $a + $b;
+//     echo "$a + $b = $t\n";
+// }
+
+// sum("100","100");
+
+// function total(...$jumlah){
+//     // var_dump($jumlah);
+//     $total = 0;
+//     foreach ($jumlah as $value){
+//         $total += $value;
+//     }
+//     echo "Total : $total\n";
+// }
+
+// total(1,2,3,4,5,6);
+// sama seperti
+// array = [1,2,3,4,5,6];
+
+
+
+// function listname (...$nama){
+//     foreach ($nama as $value){
+//         echo "value\n";
+//     }
+// }
+
+// listname("Faqih","Ahmad","Ryota");
+
+// function sum(int $a, int $b){
+//     $t = $a + $b;
+//     return $t;
+// }
+    
+//     echo sum(100,100);
+    
+    function sum(int $a, int $b):int
+    {
+        $t = $a + $b;
+        $t = "ada";
+        return $t;
+    }
+        
+        echo sum(100,100);
+    
 
 
 
