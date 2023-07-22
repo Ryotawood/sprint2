@@ -47,18 +47,35 @@
 // }
 
 //function : wadah yang berisi suatu program tertentu yang bisa kita gunakan kalau kita memanggilnya
+// function sayHello(){
+//     echo "Hello function" . PHP_EOL;
+// }
 
-function sayHello(){
-    echo "Hello function" . PHP_EOL;
+// sayHello();
+// sayHello();
+
+
+// $nama = "Faqih";
+// function notif($nama){//parameter : variable yang akan kita gunakan dalam function
+//     echo "$nama Telah terdaftar\n";
+// }
+
+// notif("$nama"); // argument : value yang akan dikirimkan parameter
+
+
+// menggunakan keyword global
+// $nama = "Faqih";
+// function notif(){//parameter : variable yang akan kita gunakan dalam function
+//     global $nama;
+//     echo "$nama Telah terdaftar\n";
+// }
+// notif();
+
+// default parameter
+function sayHi($nama,$greeting = "Good Morning"){
+    echo "Hello $nama $greeting\n";
 }
-
-if($v == 'y')
-sayHello();
-sayHello();
-
-
-
-
+sayHi("Faqih","Selamat pagi");
 
 
 
