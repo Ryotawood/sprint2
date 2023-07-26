@@ -25,17 +25,17 @@
 // rsort($array);
 // var_dump ($array);
 
-$data = [
-    "id" => 582,
-    "username" => "Fulan",
-    "email" => "fulan@gmail.com",
-    "password" => "123fulan321",
-    "password_confirmation" => "123fulan321",
- ];
+// $data = [
+//     "id" => 582,
+//     "username" => "Fulan",
+//     "email" => "fulan@gmail.com",
+//     "password" => "123fulan321",
+//     "password_confirmation" => "123fulan321",
+//  ];
 
-array_push($data,"nomor_telepon");
-array_splice($data,4,1,);
-var_dump($data);
+// array_push($data,"nomor_telepon");
+// array_splice($data,4,1,);
+// var_dump($data);
 
 
 
