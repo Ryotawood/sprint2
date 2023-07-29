@@ -60,7 +60,7 @@
 //     echo "$nama Telah terdaftar\n";
 // }
 
-// notif("$nama"); // argument : value yang akan dikirimkan parameter
+// notif("$nama"); // argument : value yang akan dikirimkan parameter ketika memanggil function
 
 
 // menggunakan keyword global
@@ -121,14 +121,14 @@
     
 //     echo sum(100,100);
     
-    function sum(int $a, int $b):int
-    {
-        $t = $a + $b;
-        $t = "ada";
-        return $t;
-    }
+    // function sum(int $a, int $b):int
+    // {
+    //     $t = $a + $b;
+    //     $t = "ada";
+    //     return $t;
+    // }
         
-        echo sum(100,100);
+    //     echo sum(100,100);
     
 
 
